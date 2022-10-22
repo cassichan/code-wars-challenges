@@ -1,12 +1,8 @@
-// Return the number (count) of vowels in the given string.
-
-// We will consider a, e, i, o, u as vowels for this Kata (but not y).
-
+// Return the number (count) of vowels in the given string. For this example, use a loop.
+// We will consider a, e, i, o, u as vowels for this (but not y).
 // The input string will only consist of lower case letters and/or spaces.
 
 let testString = "pear tree";
-// let testString = "my pyx"
-// let testString = "aeiou";
 
 function getCount(str) {
   let numberOfVowels = 0;
